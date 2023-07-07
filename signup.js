@@ -63,7 +63,7 @@ button.addEventListener("click", function (e) {
       exists.style.display = "block";
       setTimeout(() => {
         exists.style.display = "none";
-      window.location.replace("http://127.0.0.1:5500/To-Do/login.html");
+      window.location.replace("login.html");
       }, 5000);
     } else {
       localStorage.setItem("name", name.value);
@@ -76,7 +76,7 @@ button.addEventListener("click", function (e) {
         }
       }
 
-      window.location.replace("http://127.0.0.1:5500/Exercises/Tailwind/main.html");
+      window.location.replace("main.html");
     }
   }
 });

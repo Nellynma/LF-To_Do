@@ -22,13 +22,13 @@ function removeModal() {
 const deleteUser = () => {
   localStorage.clear();
   setTimeout(() => {
-    window.location.replace("http://127.0.0.1:5500/Week-9/To-Do/index.html");
+    window.location.replace("index.html");
   }, 3000);
 }
 
 function logout() {
   setTimeout(() => {
-    window.location.replace("http://127.0.0.1:5500/Week-9/To-Do/login.html");
+    window.location.replace("login.html");
   }, 3000);
 }
 

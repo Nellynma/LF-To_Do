@@ -20,7 +20,7 @@ button.addEventListener("click", function (e) {
         }, 5000);
     } else {
         setTimeout(() => {
-            window.location.replace("http://127.0.0.1:5500/To-Do/index.html");
+            window.location.replace("index.html");
         }, 3000);
     }
 });
